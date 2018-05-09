@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -9,15 +10,27 @@
 
 <header class="header">
     <div class="header__wrapper">
+        <div class="header__topbar">
+            <ul>
+                <li><a href="">Libero</a></li>
+                <li><a href="">Maecenas</a></li>
+                <li><a href="">Mauris</a></li>
+                <li><a href="">Suspendisse</a></li>
+            </ul>
+        </div>
         <div class="header__info">
             <div class="header__logo">PhotoArt
                 <span>Free PSD Website Template</span>
             </div>
             <div class="header__search">
-                <input type="search">
+                <input type="search" id="search">
+                <label for="search"></label>
             </div>
         </div>
         <nav class="header__nav">
+            <button class="header__btn">
+                <span></span>
+            </button>
             <ul>
                 <li><a href="">HOMEPAGE</a></li>
                 <li><a href="">STYLE DEMO</a></li>
@@ -33,6 +46,10 @@
 <main>
     <div class="intro">
         <div class="intro__slider slider">
+            <div class="slider__arrows arrows">
+                <a href="" class="arrows__left arrows__btn"></a>
+                <a href="" class="arrows__right arrows__btn"></a>
+            </div>
             <div class="slider__item">
                 <div class="slider__title">Boating</div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id tristique sem. Nunc nec ipsum sed nisi dictum mollis. Praesent malesuada mauris a odio adipiscing mollis. In varius tincidunt elit vitae eleifend. Etiam fermentum suscipit est vel aliquet. Quisque malesuada luctus.</p>
@@ -98,8 +115,19 @@
                 <a href="mailto:contact@mydomain.com">contact@mydomain.com</a>
             </p>
         </div>
+        <div class="footer__social social">
+            <div class="social__title title">Keep Up to Date</div>
+            <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Photos on Flickr</a></li>
+                <li><a href="">RSS Feed</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
+
+<script src="main.js"></script>
 
 </body>
 </html>
